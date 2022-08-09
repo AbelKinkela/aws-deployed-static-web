@@ -5,9 +5,9 @@ S3-website-link: http://my-20220809-udacity-bucket.s3-website-us-east-1.amazonaw
 
 In order to achieve this I went to AWS management console and searched for S3 in the search box.
 Selected S3 then selected Create Bucket option.
-I gave my bucket a name, choose the region and made it public. This is import because I want it to be publicly accessible
+I gave my bucket a name, choose the region and made it public. This is important because I want it to be publicly accessible
 
-I uploaded the files. This step took a lot of time. Maybe its because there were too many byte sized files in the content
+I uploaded the files(my website). This step took a lot of time. Maybe its because there were too many byte sized files in the content
 
 Under the permissions tab, I edited the Bucket Policy option with the following JSON:
 {
